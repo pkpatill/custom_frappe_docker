@@ -36,6 +36,7 @@ jobs:
           registry: docker.pkg.github.com
           username: ${{ github.actor }}
           password: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          logout: false
 
       - name: Get Base Versions
         id: get-base-versions
