@@ -1,4 +1,4 @@
-ame: Build latest images
+name: Build latest images
 
 on:
   push:
