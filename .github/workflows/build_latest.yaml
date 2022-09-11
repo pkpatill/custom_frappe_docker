@@ -35,7 +35,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.PERSONAL_ACCESS_TOKEN  }}
+          password: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Get Base Versions
         id: get-base-versions
